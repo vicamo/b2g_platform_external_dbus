@@ -38,7 +38,7 @@
 #undef DBUS_DISABLE_CHECKS
 
 /* Support a verbose mode */
-#undef DBUS_ENABLE_VERBOSE_MODE
+#define DBUS_ENABLE_VERBOSE_MODE 1
 
 /* Defined if gcov is enabled to force a rebuild due to config.h changing */
 #undef DBUS_GCOV_ENABLED
